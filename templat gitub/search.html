@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>    
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="test.css">
+</head>
+
+<body>
+    <header>
+        <div class="head">
+            <span> GitHub</span>
+
+        </div>
+        <img src="cut">
+        <main>
+
+            <div class="search-container">
+
+                <div class="input-container">
+
+                    <input type="text" oninput="check()" id="inp"><button  onclick="recherche();" id="btn"><i class="fas fa-search"></i></button>
+                    
+
+                </div>
+
+
+            </div>
+            <h2 style="font-weight: bold; padding-left: 10%;">GitHub Profiles</h2>
+
+
+            <div class="cards " style="padding-top: 20px;">
+
+
+                <!-- <div class="card">
+                    <img src="githup.png" alt="png" width="100%">
+                    <center><span>Username</span></center>
+
+
+                </div>
+                <div class="card">
+                    <img src="githup.png" alt="" width="100%">
+                    <center><span>Username</span></center>
+
+
+                </div>
+                 <div class="card">
+                    <img src="githup.png" alt="png" width="100%">
+                    <center><span>Username</span></center>
+
+
+                </div>
+                <div class="card">
+                    <img src="githup.png" alt="png" width="100%">
+                    <center><span>Username</span></center>
+
+
+                </div> 
+ -->
+
+
+            </div>
+            <div id="profiles">
+                <hr>
+                <h5 onclick="document.getElementById('profiles').style.display='none'" style="cursor: pointer;color: white; text-shadow: 2px 2px #FF0000">X</h5>
+                <img src="#" alt="" id="imagee">
+                <hr>
+                <h1 id="nameProfil">Username</h1>
+                <p >flowers <span id="followers">00</span></p>
+                <p >repoos: <span id="repos">00</span></p>
+                <button id="link"><a href="#" id="link">Profil</a></button>
+                
+            </div>
+            <div class="clear"></div>
+            
+        </main>
+        
+        <footer>
+           <center> <p>copyright 2020/2020</p></center>
+        </footer>
+ 
+
+    </header>
+    <script src="search.js">
+
+    </script>
+
+</body>
+
+</html>

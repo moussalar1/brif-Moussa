@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.head {
+   width:100% ;
+   height: 80px;
+    line-height: 80px;
+    /* centrer f nav bar */
+    background-color: rgb(2, 2, 2);
+    color: white;
+    overflow: hidden/tgl3 margin zayd/
+}
+
+body {
+    background: #f3f3f7;
+}
+
+.head span {
+    display: inline-block;
+    font-size: 30px;
+}
+
+.search-container {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-container {
+    width: 300px;
+    border-radius:  10px  ;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px black;
+}
+
+.input-container input,
+button {
+    border: none;
+    outline: none;
+}
+
+.input-container input {
+    padding: 8px;
+    display: inline-block;
+    width: 80%;
+}
+
+.input-container button {
+    padding: 8px 10px;
+    background-color: rgb(17, 17, 17);
+    color: rgb(241, 236, 236);
+    width: 20%;
+    display: inline-block;
+}
+
+.cards {
+    background: #f3f3f3;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 1px solid black;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-box-shadow: -6px 9px 16px -1px #000000; 
+box-shadow: -6px 9px 16px -1px #000000;
+overflow: hidden;
+border: none;
+margin: 10px;
+text-align: center;
+
+}
+.card img{
+    width: 100%;
+    height: 160px;
+}
+footer {
+    position:fixed;
+    line-height: 100px;
+    bottom: 0;
+
+  width: 100%;
+  height: 100px;  
+    background: rgb(12, 10, 10) ;
+
+}
+footer p {
+    position: absolute;
+    width: 100%;
+    color: rgb(255, 238, 238);
+    line-height: 40px;
+    font-size: 0.9em;
+    text-align: center;
+    bottom:10px;
+    
+
+}
+#profiles{
+    background:rgb(0, 0, 0);
+    padding: 20px;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px 10px 10px 10px;
+    color: rgb(255, 238, 238);
+    
+}
+#imagee{
+    border-radius: 10px 10px 10px 10px;
+    -webkit-box-shadow: -6px 9px 16px -1px #1636c4; 
+}
+#link{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    color: rgb(10, 10, 10);
+    border-radius: 10px 10px 10px 10px;
+    -webkit-box-shadow: -6px 9px 16px -1px#1636c4;
+    font-size: 30px;
+}
